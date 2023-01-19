@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\EntityFramework\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Unipluss.Sign.Client" Version="1.0.2876" />
   </ItemGroup>
 
