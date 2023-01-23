@@ -22,7 +22,8 @@ namespace Business.Concrete
 
         public List<Product> GetAll()
         {
-            //İş kodları//Bir iş sınıfı başka sınıfları newlemez injection yapıcaz         
+            //İş kodları
+            //Bir iş sınıfı başka sınıfları newlemez injection yapıcaz         
             return _ProductDal.GetAll();
         }
     }

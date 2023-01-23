@@ -5,7 +5,8 @@ using DataAccess.Concrete.InMemory;
 
 Console.WriteLine("Hello, World!");
 
-ProductManager productManager = new ProductManager(new InMemoryProductDal());
+//ProductManager productManager = new ProductManager(new InMemoryProductDal()); //plug in play 
+ProductManager productManager = new ProductManager(new EfProductDal());
 foreach (var product in productManager.GetAll()) 
 {
     Console.WriteLine(product.ProductName);
