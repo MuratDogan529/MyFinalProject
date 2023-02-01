@@ -3,7 +3,6 @@ using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 
-Console.WriteLine("Hello, World!");
 
 //ProductManager productManager = new ProductManager(new InMemoryProductDal()); //plug in play 
 ProductManager productManager = new ProductManager(new EfProductDal());

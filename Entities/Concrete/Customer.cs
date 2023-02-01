@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 namespace Entities.Concrete
 {
     public class Customer:IEntity
-    {
-        public string MusteriID{ get; set; }
-        public string Telefon { get; set; }
-        public string SirketAdi { get; set; }
-        public string Sehir { get; set; }
+    { 
+        public string CustomerID { get; set; }
+        public string Phone { get; set; }
+        public string CompanyName { get; set; }
+        public string City { get; set; }
 
     }
 }
