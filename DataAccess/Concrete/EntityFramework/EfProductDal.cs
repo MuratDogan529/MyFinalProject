@@ -18,7 +18,7 @@ namespace DataAccess.Concrete.EntityFramework
         public void Add(Product entity)
         {
             //using:IDisposable pattern implementation of C#
-            using (NorthwindContext context=new NorthwindContext())
+            using (NorthwindContext context=new NorthwindContext())//using:IDisposable implementation.GarbageCollectorü çağırır. 
             {
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
