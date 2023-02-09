@@ -1,4 +1,4 @@
-﻿ using Core.DataAccess;
+﻿using Core.DataAccess;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    //veritabanında yapacağımız operasyonların kodlarını burada yazacağız
-    public interface IProductDal:IEntityRepository<Product>
+    public interface IOrderDal:IEntityRepository<Order>
     {
-   
     }
 }
